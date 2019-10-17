@@ -28,7 +28,7 @@ end
       @total = @total - (@total * (@discount))
       puts "After the discount, the total comes to #{@total}"
     else
-      puts
+      puts 
     end
   end
 end
