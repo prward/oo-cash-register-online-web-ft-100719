@@ -26,7 +26,9 @@ end
     if @discount > 0
       @discount = @discount/ 100.0
       @total = @total - (@total * (@discount))
-      puts ""
+      puts "After the discount, the total comes to #{@total}"
+    else
+      puts
     end
   end
 end
