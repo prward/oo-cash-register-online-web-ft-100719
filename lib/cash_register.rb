@@ -27,4 +27,5 @@ end
       @discount = @discount/ 100.0
       @total = @total - (@total * (@discount))
     end
+  end
 end
