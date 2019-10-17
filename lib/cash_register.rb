@@ -33,7 +33,7 @@ end
   end
   
   def void_last_transaction()
-    self.total = @total - (self.last_transaction_total - self.total)
+    self.total = self.total - (self.last_transaction_total - self.total)
   end
 end
 
