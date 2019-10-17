@@ -5,7 +5,7 @@ class CashRegister
     @total = total
     @discount = discount
     @cash_register = cash_register
-    @cash_register_with_discount = cash_register_with_discount.discount
+    @cash_register_with_discount = cash_register_with_discount
   end
 end
 
