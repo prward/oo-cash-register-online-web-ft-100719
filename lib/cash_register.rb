@@ -25,5 +25,5 @@ end
   def apply_discount()
     if @discount > 0
       @discount = @discount/ 100.0
-      @total = 
+      @total = @total - (@total * @discount)
 end
