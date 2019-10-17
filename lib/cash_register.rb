@@ -1,1 +1,4 @@
 class CashRegister
+end
+
+class CashRegister_with_discount
